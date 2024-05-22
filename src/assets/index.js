@@ -6,8 +6,9 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
-
+import diaa from './personal/diaa.png';
+import automation from './icons/automation.png';
+// 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -51,13 +52,14 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  diaa, 
   bwmap,
   nairobi,
   whiteabstract,
   worldmap,
   logo,
   logotext,
-  shaq,
+  
   backend,
   ux,
   frontend,
@@ -96,4 +98,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  automation
 };

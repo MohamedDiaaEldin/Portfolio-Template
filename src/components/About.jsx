@@ -37,12 +37,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hi, I'm Mohamed Diaa, a Full-Stack Web Developer from Cairo, Egypt. I specialize in building the essential systems that keep websites and apps running smoothly. I ensure your online platforms are fast, secure, and reliable, providing a seamless experience for your users.
+        With expertise in various programming languages, I create custom solutions tailored to your business needs. Whether it's an online store or a web application, I have the skills to bring your ideas to life and help your business grow.
+
+
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

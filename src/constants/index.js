@@ -27,6 +27,7 @@ import {
   dcc,
   kelhel,
   microverse,
+  automation
 } from '../assets';
 
 export const navLinks = [
@@ -54,8 +55,8 @@ const services = [
     icon: backend,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
+    title: 'Automation',
+    icon: automation,
   },
   {
     title: 'Software Prototyping',
