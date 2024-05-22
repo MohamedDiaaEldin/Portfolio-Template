@@ -1,12 +1,14 @@
 import {
   frontend,
   backend,
+  company,
   ux,
   prototyping,
   javascript,
   typescript,
   html,
   css,
+  linux,
   reactjs,
   redux,
   tailwind,
@@ -14,6 +16,9 @@ import {
   git,
   figma,
   docker,
+  api,
+  sql,
+  flask,
   postgresql,
   rubyrails,
   graphql,
@@ -27,7 +32,10 @@ import {
   dcc,
   kelhel,
   microverse,
-  automation
+  automation,
+  kasper,
+  leon,
+  fivver,
 } from '../assets';
 
 export const navLinks = [
@@ -86,24 +94,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
     name: 'Node JS',
     icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
   },
   {
     name: 'postgresql',
@@ -114,51 +106,56 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
-    icon: figma,
-  },
-  {
     name: 'docker',
     icon: docker,
+  },
+  {
+    name: 'linux',
+    icon: linux,
+  },
+  {
+    name: 'sql',
+    icon: sql,
+  },
+  {
+    name: 'api',
+    icon: api,
+  },
+  {
+    name: 'flask',
+    icon: flask,
   },
 ];
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Full-Stack Developer',
+    company_name: 'Fiverr',
+    icon: fivver,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'May 2022 - present',
   },
   {
     title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
+    company_name: 'RTC Egypt',
     icon: microverse,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'Aug 2022 - Dec 2022',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
+    title: 'Web Development Teacher Assistant',
+    company_name: 'We Schools',
     icon: kelhel,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
-  },
+    date: 'Feb 2024 - May 2024',
+  }
 ];
 
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'company profile',
+    description: 'A user-friendly website that helps businesses operate more efficiently and provides an excellent experience for their customers. ',
     tags: [
       {
         name: 'react',
@@ -173,15 +170,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: company,
+    repo: '',
+    demo: 'https://mohameddiaaeldin.github.io/company-profile/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Ecommerce',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A website that offers a range of services tailored to help businesses thrive in today’s digital landscape',
     tags: [
       {
         name: 'react',
@@ -196,14 +193,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: leon,
+    repo: '',
+    demo: 'https://mohameddiaaeldin.github.io/Leon-template/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'SaS Website',
+    description: ' A versatile website designed to support businesses in their digital transformation',
     tags: [
       {
         name: 'nextjs',
@@ -218,55 +215,10 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
-  },
-  {
-    id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
-  },
-  {
-    id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
-    tags: [
-      {
-        name: 'nextjs',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'supabase',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'css',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
-  },
+    image: kasper,
+    repo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    demo: 'https://mohameddiaaeldin.github.io/Kasper-Template/',
+  }
 ];
 
 export { services, technologies, experiences, projects };
