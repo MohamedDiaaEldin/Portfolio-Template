@@ -36,6 +36,8 @@ import {
   kasper,
   leon,
   fivver,
+  grill, 
+  foodie
 } from '../assets';
 
 export const navLinks = [
@@ -153,29 +155,7 @@ const experiences = [
 
 const projects = [
   {
-    id: 'project-1',
-    name: 'company profile',
-    description: 'A user-friendly website that helps businesses operate more efficiently and provides an excellent experience for their customers. ',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: company,
-    repo: '',
-    demo: 'https://mohameddiaaeldin.github.io/company-profile/',
-  },
-  {
-    id: 'project-2',
+    id: 'project-4',
     name: 'Ecommerce',
     description:
       'A website that offers a range of services tailored to help businesses thrive in today’s digital landscape',
@@ -196,6 +176,52 @@ const projects = [
     image: leon,
     repo: '',
     demo: 'https://mohameddiaaeldin.github.io/Leon-template/',
+  },
+   
+  {
+    id: 'project-2',
+    name: 'Grill',
+    description: "A restaurant's website for a seamless dining experience. Discover our menu, make reservations, and stay updated on events. Your culinary journey awaits!",
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: grill,
+    repo: '',
+    demo: 'https://cool-biscotti-90eb1a.netlify.app/',
+  } ,
+  
+  {
+    id: 'project-4',
+    name: 'Foodie',
+    description: "A website for fast and flavorful dining on our website. Browse our menu, order online, and get your favorites delivered with speed and convenience. Your quick and delicious meal is just a click away!",
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'css',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: foodie,
+    repo: '',
+    demo: 'https://glittery-bubblegum-500f75.netlify.app/',
   },
   {
     id: 'project-3',
@@ -218,6 +244,28 @@ const projects = [
     image: kasper,
     repo: 'https://inspiring-medovik-37d3b3.netlify.app/',
     demo: 'https://mohameddiaaeldin.github.io/Kasper-Template/',
+  } ,
+  {
+    id: 'project-1',
+    name: 'company profile',
+    description: 'A user-friendly website that helps businesses operate more efficiently and provides an excellent experience for their customers. ',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'mongodb',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: company,
+    repo: '',
+    demo: 'https://mohameddiaaeldin.github.io/company-profile/',
   }
 ];
 
